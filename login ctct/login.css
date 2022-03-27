@@ -1,3 +1,4 @@
+/* Google Font Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0; 
@@ -10,7 +11,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: whitesmoke;
+  background: #ffffff;
   padding: 30px;
 }
 .container{
@@ -19,7 +20,7 @@ body{
   width: 100%;
   background: #fff;
   padding: 40px 30px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.342);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.39);
   perspective: 2700px;
 }
 .container .cover{
@@ -54,7 +55,7 @@ body{
   position: absolute;
   height: 100%;
   width: 100%;
-  background: whitesmoke;
+  background: #000000;
   opacity: 0.96;
   z-index: 12;
 }
@@ -118,7 +119,7 @@ body{
   bottom: 0;
   height: 3px;
   width: 25px;
-  background: rgb(252, 252, 64);
+  background: #000000;
 }
 .forms .signup-form  .title:before{
   width: 20px;
@@ -147,11 +148,11 @@ body{
 }
 .form-content .input-box input:focus,
 .form-content .input-box input:valid{
-  border-color: rgb(252, 252, 64);
+  border-color: #000000;
 }
 .form-content .input-box i{
   position: absolute;
-  color: rgb(252, 252, 64);
+  color: #000000;
   font-size: 17px;
 }
 .forms .form-content .text{
@@ -171,17 +172,17 @@ body{
 }
 .forms .form-content .button input{
   color: #fff;
-  background: rgb(252, 252, 64);
+  background: #000000;
   border-radius: 6px;
   padding: 0;
   cursor: pointer;
   transition: all 0.4s ease;
 }
 .forms .form-content .button input:hover{
-  background: rgb(199, 199, 32);
+  background: #000000;
 }
 .forms .form-content label{
-  color: rgb(211, 211, 44);
+  color: #000000;
   cursor: pointer;
 }
 .forms .form-content label:hover{
@@ -213,4 +214,3 @@ body{
     display: none;
   }
 }
-
