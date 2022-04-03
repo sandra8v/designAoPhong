@@ -17,7 +17,7 @@ footer{
   padding:0; 
 }
 footer::before{
-  content: '';
+  content: ' ';
   position: absolute;
   left: 0;
   top: 100px;
