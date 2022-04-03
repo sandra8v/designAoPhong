@@ -1,10 +1,12 @@
-let btn= document.querySelector("#btn")
-console.log(btn.innerHTML);
-btn.addEventListener('click',function (){
-    localStorage.clear()
+let dangKy= document.querySelector("#dangKy")
+dangKy.onsubmit=function (e){
+    e.preventDefault()
     let username= document.getElementById("username")
-    console.log(username)
-})
+    let password= document.getElementById("password")
+    localStorage.setItem('username',username.value)
+    localStorage.setItem('password',password.value)
+
+}
 
 let btn1= document.querySelector("#btn1")
 console.log(btn1.innerHTML);
